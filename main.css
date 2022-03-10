@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+*  {
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-size: 25px ;
+
+}
+
+
+*{
+    box-sizing: border-box;
+}
+.container {
+    display: flex;     
+}
+.box {
+color: rgb(191, 248, 4);
+font-size: 35px;
+font-family: 'Lora', serif;
+text-align: center ;
+padding: 28px;
+width: 180px;
+height: 140px;
+flex: 0.8;
+}
+/* Created different classes for each colour variation of the .box class */
+
+.box1 {background-color:rgb(2, 32, 56);}
+.box2 {background-color:rgb(11, 17, 24);}
+.box3 {background-color:rgb(20, 37, 51) ;}
+
+.h3{
+color:rgb(191, 248, 4);
+font-size: 25px
+} 
